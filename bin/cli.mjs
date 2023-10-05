@@ -22,6 +22,10 @@ const defaultConfig = defineNitroConfig({
   rollupConfig: {
     plugins: [rollupPluginVue()],
   },
+  routeRules: {
+    '/foo': { isr: true, cors: true },
+    '/admin': { prerender: true },
+  },
   imports: {
     presets: [
       {
