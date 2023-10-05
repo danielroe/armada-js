@@ -4,9 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "./bin/cli.mjs dev",
+    "build": "./bin/cli.mjs build"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@picocss/pico": "^1.5.10",
+    "@vitejs/plugin-vue": "^4.4.0",
+    "c12": "^1.4.2",
+    "citty": "^0.1.4",
+    "h3": "^1.8.2",
+    "nitropack": "^2.6.3",
+    "rollup-plugin-vue": "^6.0.0",
+    "unplugin-auto-import": "^0.16.6",
+    "vite": "^4.4.11",
+    "vue": "^3.3.4"
+  }
 }
